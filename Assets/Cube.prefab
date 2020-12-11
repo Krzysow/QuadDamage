@@ -155,7 +155,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4c9b7dca884f34030b32e7f0d27bb2a0, type: 2}
+  - {fileID: 2100000, guid: 8a788948026624ef5af9d6ec0989ab26, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -252,7 +252,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 60660b8384d8e49b59f2ad2cfe46a966, type: 2}
+  - {fileID: 2100000, guid: 271c8a217e2984d42b85a47c43c9c055, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -348,7 +348,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 16df486eec5d94e8aa283a84f72bbbf3, type: 2}
+  - {fileID: 2100000, guid: 4332b1c4faa2f483a8732072629ca9c6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -444,7 +444,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8a788948026624ef5af9d6ec0989ab26, type: 2}
+  - {fileID: 2100000, guid: 16df486eec5d94e8aa283a84f72bbbf3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -540,7 +540,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 271c8a217e2984d42b85a47c43c9c055, type: 2}
+  - {fileID: 2100000, guid: 60660b8384d8e49b59f2ad2cfe46a966, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -636,7 +636,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4332b1c4faa2f483a8732072629ca9c6, type: 2}
+  - {fileID: 2100000, guid: 4c9b7dca884f34030b32e7f0d27bb2a0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -682,6 +682,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6681488889943306102}
   - component: {fileID: 914176771051431143}
+  - component: {fileID: 149958252882601446}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -722,3 +723,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gridSize: 10
+--- !u!114 &149958252882601446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8526309027842194255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f8832b5b82d04b29b8c2da8d751ce9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
