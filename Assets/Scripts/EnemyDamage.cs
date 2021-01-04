@@ -9,12 +9,6 @@ public class EnemyDamage : MonoBehaviour
     [SerializeField] ParticleSystem hitParticlePrefab;
     [SerializeField] ParticleSystem deathParticlePrefab;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     private void OnParticleCollision(GameObject other)
     {
         ProcessHit();
@@ -34,6 +28,8 @@ public class EnemyDamage : MonoBehaviour
     {
         var vfx = Instantiate(deathParticlePrefab, transform.position, Quaternion.identity);
         vfx.Play();
+        Destroy(vfx.gameObject, vfx.main.duration);
+
         Destroy(gameObject);
     }
 }
